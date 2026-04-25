@@ -1,35 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles/output.css">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Social links profile</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <!-- Social links card -->
+    <div class="flex-1 flex justify-center items-center p-6">
+      <div class="w-sm bg-surface flex flex-col rounded-2xl p-6">
+        <div class="flex flex-col items-center gap-4">
+          <!-- Image -->
+          <div class="rounded-full size-20 overflow-hidden">
+            <img
+              src="./assets/images/avatar-jessica.jpeg"
+              alt="Avatar of Jessica"
+              class="h-full w-full"
+            />
+          </div>
+          <!-- Content div -->
+          <h1 class="text-3xl font-semibold">Jessica Randall</h1>
+          <span class="text-green font-bold">London, United Kingdom</span>
+          <p class="text-center my-6">"Front-end developer and avid reader."</p>
+        </div>
+        <!-- Buttons -->
+        <div class="flex flex-col gap-4">
+          <button
+            class="bg-btn rounded-xl py-4 font-bold cursor-pointer hover:bg-green hover:text-btn focus-visible:bg-green focus-visible:text-btn"
+          >
+            GitHub
+          </button>
+          <button
+            class="bg-btn rounded-xl py-4 font-bold cursor-pointer hover:bg-green hover:text-btn focus-visible:bg-green focus-visible:text-btn"
+          >
+            Frontend Mentor
+          </button>
+          <button
+            class="bg-btn rounded-xl py-4 font-bold cursor-pointer hover:bg-green hover:text-btn focus-visible:bg-green focus-visible:text-btn"
+          >
+            LinkedIn
+          </button>
+          <button
+            class="bg-btn rounded-xl py-4 font-bold cursor-pointer hover:bg-green hover:text-btn focus-visible:bg-green focus-visible:text-btn"
+          >
+            Twitter
+          </button>
+          <button
+            class="bg-btn rounded-xl py-4 font-bold cursor-pointer hover:bg-green hover:text-btn focus-visible:bg-green focus-visible:text-btn"
+          >
+            Instagram
+          </button>
+        </div>
+      </div>
+    </div>
 
-  <h1 class="text-red-500">Jessica Randall</h1>
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-</body>
+    <!-- Footer -->
+    <footer class="text-[0.6875rem] text-center mb-2">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        class="text-[hsl(228,45%,44%)]"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://benzzo.cz" class="text-[hsl(228,45%,44%)]"
+        >Benzzo Krugger</a
+      >.
+    </footer>
+  </body>
 </html>
