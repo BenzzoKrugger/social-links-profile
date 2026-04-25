@@ -42,6 +42,7 @@ Users should be able to:
 ### What I learned
 
 This challenge was quite easy and quickly done, since the design is repeatable with my other 2 challenges:
+
 [QR component challenge](https://github.com/BenzzoKrugger/fm-qr-component)
 [Block preview card](https://github.com/BenzzoKrugger/fm-block-preview-card)
 
